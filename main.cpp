@@ -129,7 +129,7 @@ static string build_header() {
     GPS_FIELDS(HNAME)
     VCU_FIELDS(HNAME)
 
-    // OBJ(고정 슬롯 헤더)
+    // OBJ
     h << "obj_in_hh,obj_in_mm,obj_in_ss,obj_in_ssss,"
       << "obj_out_hh,obj_out_mm,obj_out_ss,obj_out_ssss,"
       << "obj_number,";
