@@ -7,7 +7,6 @@ int main()
     for(int i = 0 ; i< 32 ; i++)
     {
         num *= 2;
-
     }
 
     printf("%llu\n", num);
